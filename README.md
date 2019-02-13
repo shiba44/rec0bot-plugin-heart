@@ -11,7 +11,7 @@ If you want to clean up built files, run `npm run clean`.
 - `REC0_ENV_SINDOI_CHANNEL` : A channel name which rec0bot posts murmur to.
 
 ## Author
-Arisaka Mashiro
+clvs7 (Arisaka Mashiro)
 
 ## License
 Apache License 2.0
