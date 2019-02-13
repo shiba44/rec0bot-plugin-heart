@@ -7,7 +7,7 @@ A Rec0-bot plugin murmurs everyone's "しんどい (sindoi) ……".
 Run `npm i && npm run build` to build.  
 If you want to clean up built files, run `npm run clean`.
 
-## 環境変数
+## Environment variables
 - `REC0_ENV_SINDOI_CHANNEL` : A channel name which rec0bot posts murmur to.
 
 ## Author
