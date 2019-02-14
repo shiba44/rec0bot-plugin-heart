@@ -1,6 +1,6 @@
 import { Logger } from '@log4js-node/log4js-api';
 import * as path from 'path';
-import { BotProxy } from '../../src/interface/bot-proxy.interface';
+import { BotProxy } from './bot-proxy.interface';
 
 let mBot: BotProxy;
 let logger: Logger;
