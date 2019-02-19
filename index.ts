@@ -1,6 +1,7 @@
 import { Logger } from '@log4js-node/log4js-api';
 import * as path from 'path';
 import { BotProxy } from './bot-proxy.interface';
+import { MessageContext } from './message-context.interface';
 
 let mBot: BotProxy;
 let logger: Logger;
@@ -22,7 +23,7 @@ export const onStop = () => {
     logger.debug('onStop()');
 };
 
-export const onMessage = async (message: string, channelId: string, userId: string, data: { [key: string]: any }) => {
+export const onMessage = async (message: string, context: MessageContext, data: { [key: string]: any }) => {
     await mBot.sendTalk(await mBot.getChannelId(process.env.REC0_ENV_SINDOI_CHANNEL || 'sindoi'),
         `しんどい……${message.split(' ').slice(1).join(' ')}`);
 };
