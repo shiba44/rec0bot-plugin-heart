@@ -15,7 +15,10 @@ If you want to clean up built files, run `npm run clean`.
 
 ## Author
 shiba44
+
 clvs7 (Arisaka Mayuki)
+
+
 
 ## License
 Apache License 2.0
