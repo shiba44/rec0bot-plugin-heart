@@ -1,17 +1,14 @@
 {
-  "name": "sindoi-reporter",
+  "name": "hearful-forwarder",
   "version": "1.0.0",
-  "description": "A Rec0-bot plugin murmurs everyone's \"しんどい (sindoi) ……\"",
-  "filter_prefixes": [
-    "sindoi"
-  ],
+  "description": "A Rec0-bot plugin send hearthul message",
   "main": "index.js",
   "scripts": {
     "build": "tsc index.ts",
     "clean": "rm -rf *.js node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "clvs7",
+  "author": "shiba44",
   "license": "Apache-2.0",
   "dependencies": {
     "@log4js-node/log4js-api": "^1.0.2"
