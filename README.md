@@ -1,7 +1,7 @@
 # Hearthul Forwarder for REC0-Bot
 
 ## What is this?
-A Rec0-bot plugin forward everyone's "ハート (heart) ……".
+A Rec0-bot plugin forward everyone's "heart ……".
 
 ## How to build
 Run `npm i && npm run build` to build.  
