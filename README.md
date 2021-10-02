@@ -11,7 +11,7 @@ If you want to clean up built files, run `npm run clean`.
 - `REC0_ENV_HEART_BOT_USERNAME` : A rec0bot's display name.
 - `REC0_ENV_HEART_BOT_ICON_EMOJI` : A rec0bot's icon with the emoji registered in your workspace.
 - `REC0_ENV_HEART_CHANNEL` : A channel name which rec0bot posts murmur to.
-- `REC0_ENV_HEART_PREFIX` : A channel name which rec0bot posts murmur to.
+- `REC0_ENV_HEART_PREFIX` : A prefix that bots respond to.
 
 ## Author
 shiba44
