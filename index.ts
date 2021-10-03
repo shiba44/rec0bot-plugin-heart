@@ -39,7 +39,7 @@ export const onMessage = async (message: string, context: MessageContext, data: 
     var options = { username: username, icon_emoji: icon_emoji};
 
     const trimmed_message  = message.split(' ').slice(1).join(' ')
-    const hearted_message  = trimmed_message.replace(' ',`:heart:`).replace(/\r?\n/g,`:heart:\n`) + ':heart:'
+    const hearted_message  = trimmed_message.replace(/ /g,`:heart:`).replace(/\r?\n/g,`:heart:\n`) + ':heart:'
 
     await mBot.sendTalk(await mBot.getChannelId(process.env.REC0_ENV_HEART_CHANNEL || 'heart'),
         `${hearted_message}`, options);
